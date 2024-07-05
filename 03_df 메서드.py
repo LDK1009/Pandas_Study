@@ -29,6 +29,7 @@ s = pd.Series([22, 35, 58], name="나이")
 print("# 데이터프레임의 시리즈 별 최대값")
 print(df.max())
 
+
 # series의 최대값
 print("# series의 최대값")
 a = df["나이"].max()
@@ -44,15 +45,17 @@ print(df.describe())
 
 # df의 출력할 행 제한하기
 print("# df의 출력할 행 제한하기")
-h = df.head(2) # 첫 2행만 가져온다
-t = df.head(2) # 마지막 2행만 가져온다
+h = df.head(2)  # 첫 2행만 가져온다
+t = df.head(2)  # 마지막 2행만 가져온다
 print(h)
 print(t)
 
+
 # df의 행 개수 알아내기
 print("# 행 개수 알아내기")
-print(df.shape) # >> (3,3) / 3행 3열을 나타낸다
+print(df.shape)  # >> (3,3) / 3행 3열을 나타낸다
+
 
 # series의 행 개수 알아내기
 print("# series의 행 개수 알아내기")
-print(df["나이"].shape) # >> (3,) / 3행 1열을 나타낸다.
+print(df["나이"].shape)  # >> (3,) / 3행 1열을 나타낸다.

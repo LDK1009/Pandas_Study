@@ -31,5 +31,5 @@ df.plot.scatter(x="height", y="weight", alpha=0.5) # 데이터를 그린다.(산
 df.plot.box() # 데이터를 그린다.(박스 플롯)
 # plt.show() # 그래프를 화면에 보여준다.(기본적으로 숫자로 된 속성값들만 보여준다)
 
-df.plot.area(figsize=(12, 4), subplots=True)
+df.plot.area(figsize=(12, 4), subplots=True) # 여러개로 나눠서 보여주기
 plt.show()

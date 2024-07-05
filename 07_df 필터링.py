@@ -22,7 +22,7 @@ df = pd.DataFrame(
 )
 
 # 특정 값 이상의 데이터만 추출
-filter_data = df[df["나이"]>21]
+filter_data = df[df["나이"]>21] # 해당 조건식이 true인 데이터 행만 가져온다
 print(filter_data)
 
 
